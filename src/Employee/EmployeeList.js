@@ -13,7 +13,8 @@ const EmployeeList = props => {
                     key={employee.id} 
                     name={employee.name} 
                     exp={employee.exp}
-                    dob={employee.dob}/>))
+                    dob={employee.dob}
+                    deleteID={employee.id}/>))
             }
         </ul>
     )
