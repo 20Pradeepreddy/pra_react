@@ -1,0 +1,27 @@
+.emp-dob {
+    display: flex;
+    flex-direction: column;
+    width:5.5rem ;
+    height: 5.5rem;
+    border: 1,solid, #ececec;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.emp-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.emp-date__year {
+    font-size: 0.75rem;
+}
+
+.emp-date__day {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
