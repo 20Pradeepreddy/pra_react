@@ -55,12 +55,12 @@ const EmployeeForm = (props) => {
 
                 <div className="new-employee__control">
                     <label>Experience</label>
-                    <input type="number" min="1" step="1" onChange={expChangedHandler} value={entertedexp}/>
+                    <input type="number" min="1" max='20' step="1" onChange={expChangedHandler} value={entertedexp}/>
                 </div>
 
                 <div className="new-employee__control">
                     <label>Date of Brith</label>
-                    <input type="date" min="2019-01-10" max="2024-12-31" onChange={dobChangedHandler} value={enterteddob}/>
+                    <input type="date" min="1995-01-01" max="2005-01-01" onChange={dobChangedHandler} value={enterteddob}/>
                 </div><br/>
                 <div className="new-employee__control">
                     <button type="submit" >Add Employee</button>

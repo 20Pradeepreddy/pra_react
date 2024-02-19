@@ -6,8 +6,8 @@ import NewEmployee from './Employee/NewEmployee';
 import EmployeeForm from './Employee/EmployeeForm';
 import { EmployeeContext } from './Employee/employee-context';
 import EmployeeContextProvider from './Employee/employee-context';
-import { UseSelector, useDispatch, useSelector } from 'react-redux';
-import { sendEmployeeData } from './Store';
+import { useDispatch, useSelector } from 'react-redux';
+import {  sendEmployeeData } from './Store';
 
 
   const App = () => {

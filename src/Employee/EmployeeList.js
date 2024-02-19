@@ -14,7 +14,7 @@ const EmployeeList = props => {
                     name={employee.name} 
                     exp={employee.exp}
                     dob={employee.dob}
-                    deleteID={employee.id}/>))
+                    employeeID={employee.id}/>))
             }
         </ul>
     )

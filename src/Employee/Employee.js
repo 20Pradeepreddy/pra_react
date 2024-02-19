@@ -22,7 +22,8 @@ const Employee = (props)=> {
     }
 
     const filteredEmployee = items.filter(employee => {
-      return employee.dob.getFullYear().toString() === filteredYear;
+      // return employee.dob.getFullYear().toString() === filteredYear;
+      return employee.exp.toString() === filteredYear;
     });
 
     return(

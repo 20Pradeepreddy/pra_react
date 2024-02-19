@@ -29,10 +29,8 @@ export default function EmployeeContextProvider({children}) {
         {id:'e3',name:'Kubera', exp:4,dob:new Date(2019,7,23)},
       ];
 
-      const [employees, dispatch] = useReducer(employeeReducer, DUMP_EMPLOYEES)
+      const [employees, dispatch] = useReducer(employeeReducer, DUMP_EMPLOYEES);
     
-      // const[employees, setEmployees] = useState(DUMP_EMPLOYEES);
-      
     const addEmployeeHandler = employee =>  {
         dispatch(
           {
